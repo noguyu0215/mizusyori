@@ -1,1 +1,43 @@
 
+
+* {
+  box-sizing: border-box;
+}
+/*
+h2{
+	position: absolute;
+  top: 37%;
+  width: 100%;
+  font-size: 150%;
+	
+}
+*/
+
+header{
+	height: 65px;
+	background-color : rgb(150, 150, 255);
+	width:100%
+	position :fixed;
+	top: 0;
+	
+  padding: 0 15px;
+  margin: 0 auto;
+	
+}
+
+.header-left {
+  float: left;
+	  vertical-align:middle;
+}
+
+.header-right {
+  float: right;
+}
+/*
+.hage{
+	color:rgb(250,100,100);
+}
+*/
+body{
+	margin: 0;
+}
