@@ -1,6 +1,15 @@
 
+.test{
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+		margin-left:auto;
+	margin-right:auto;
+}
+	
 * {
-  box-sizing: border-box;
+ /* box-sizing: border-box;*/
 }
 /*
 h2{
@@ -19,7 +28,7 @@ header{
 	position :fixed;
 	top: 0;
 	
-  padding: 0 15px;
+  padding: 0 55px;
   margin: 0 auto;
 	
 }
@@ -39,4 +48,32 @@ header{
 */
 body{
 	margin: 0;
+}
+
+h2{
+	text-align:left
+	
+}
+.input-area tr{
+	text-align:center;
+	border:2px;
+	width:auto;
+}
+
+
+
+.green{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+.yellow{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+.red{
+  background-color: red;
+  width: 200px;
+  height: 200px;
 }
