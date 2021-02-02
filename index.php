@@ -1,27 +1,48 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="ja">
-<head>
-<meta http-equiv="Content-Type" content="text/html>
-<meta http-equiv="Pragma" content="no-cache">
-<meta charset="utf-8">
+<html>
+  <head>
+  
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+	
+  <body>
+  <header>
+		<div class="header-left">
+			<a>Mizusyori</a>
+<?php echo date("Y/m/d"); ?> 
+		</div>
+		<div class="header-right">
+			<a href="#">一般データ</a>
+			<a href="#">1-3期水質</a>
+			<a href="#" class="login">4-5期水質</a>
+			
+		</div>
+  </header>
+	<div class='test'>
+			<table class='input-area'>
+				<tr><td id=title01>温度</td><td id=title02>pH</td><tr>
+				<tr><td><input  id='in1' type="number"></td><td><input id='in2' type="number"></td><tr>
+				<tr><td id=title03>EC</td><td id=title04>DO</td><tr>
+				<tr><td><input  id='in3'type="number"></td><td><input  id='in4' type="number"></td><tr>
+				<tr><td id=title05>MLSS</td><td id=title06>SV30</td><tr>
+				<tr><td><input  id='in5'type="number"></td><td><input  id='in6' type="number"></td><tr>
+			</table>
+	</div>
 
-<title>日付の表示/PHP入門サンプル</title>
-
-</head>
-
-<body>
-<div class="link"><a href="../php_03.html#back">BackPage</a></div>
-<h1 id="header">PHPサンプル・日付の表示</h1>
-<dl>
-<dt><span>■</span> 日付を表示します。</dt>
-<dd>今日は、<?php echo date("Y/m/d"); ?> です。</dd>
-</dl><hr>
-
-<p id="footer"><a href="../php_03.html#back">前のページに戻る</a></p><hr>
-<div id="body2">
-最新更新日 2004/1/12
-<address>Copyright(C) 2002-2003 banban@scollabo.com</address>
-</div>
-
-</body>
-</html>
+			<table class='input-area'>
+				<tr><td id=title01>温度</td><td id=title02>pH</td><td id=title03>EC</td><tr>
+				<tr><td><input id='in1' type="number"></td><td><input id='in2'type="number"></td><td><input id='in3' type="number"></td><tr>
+				<tr><td id=title04>DO</td><td id=title05>MLSS</td><td id=title06>SV30</td><tr>
+				<tr><td><input id='in4' type="number"></td><td><input id='in5'type="number"></td><td><input id='in6' type="number"></td><tr>
+			</table>
+	</div>
+	
+		<h2 class="hage">Ph入力について</h2>
+		<p><span>pH</span>はポータブルと据え付けの値で分ける</p>
+		
+	 <div class="green">a</div>
+   <div class="yellow">a</div>
+   <div class="red">a</div>
+		
+	</body>
+</html> 
